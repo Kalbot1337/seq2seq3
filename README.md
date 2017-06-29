@@ -1,6 +1,6 @@
-# Python3 Sequence To Sequence, using tensorflow
+# Python Sequence To Sequence, using tensorflow
 ---
-Tensorflow Chatbot for python3, using the [sequence2sequence tutorial](https://www.tensorflow.org/tutorials/seq2seq)
+Tensorflow Chatbot for python, using the [sequence2sequence tutorial](https://www.tensorflow.org/tutorials/seq2seq)
 
 ---
 ## What does it do?
@@ -18,3 +18,15 @@ Because those models never seemed to work, or they did work, after a week of com
 
 Simple! Submit a ticket in the issues section
 
+---
+## That's great, but how does it work?
+---
+
+'''
+git clone https://github.com/b0noI/dialog_converter.git
+cd dialog_converter
+python converter.py
+cd 
+cd ./seq2seq3
+python ./translate.py  --en_vocab_size=40000 --fr_vocab_size=40000 --data_dir=/home/ubuntu/train --train_dir=/home/ubuntu/train
+'''
