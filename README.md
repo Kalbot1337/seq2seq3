@@ -22,11 +22,11 @@ Simple! Submit a ticket in the issues section
 ## That's great, but how does it work?
 ---
 
-'''
+```
 git clone https://github.com/b0noI/dialog_converter.git
 cd dialog_converter
 python converter.py
 cd 
 cd ./seq2seq3
 python ./translate.py  --en_vocab_size=40000 --fr_vocab_size=40000 --data_dir=/home/ubuntu/train --train_dir=/home/ubuntu/train
-'''
+``` 
